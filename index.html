@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Your Virtual Assistant Portfolio</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -15,7 +15,7 @@
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 1em;
+            padding: 2em;
         }
         section {
             padding: 2em;
@@ -23,8 +23,21 @@
         h2 {
             color: #333;
         }
-        .project {
-            margin-bottom: 2em;
+        p {
+            color: #555;
+        }
+        .services {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .service {
+            width: 30%;
+            margin-bottom: 1em;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
             background-color: #333;
@@ -41,26 +54,38 @@
 
     <header>
         <h1>Your Name</h1>
-        <p>Web Developer</p>
+        <p>Virtual Assistant</p>
     </header>
 
     <section>
-        <h2>Projects</h2>
+        <h2>About Me</h2>
+        <p>Welcome to my virtual space! I am a dedicated and efficient virtual assistant ready to assist you in various tasks. With a keen eye for detail and excellent organizational skills, I am here to make your life easier.</p>
+    </section>
 
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p><a href="link-to-project-1" target="_blank">View Project</a></p>
+    <section>
+        <h2>Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Administrative Support</h3>
+                <p>Efficiently manage emails, schedule appointments, and handle general administrative tasks.</p>
+            </div>
+            <div class="service">
+                <h3>Data Entry</h3>
+                <p>Accurate and timely data entry to keep your records organized and up-to-date.</p>
+            </div>
+            <div class="service">
+                <h3>Customer Service</h3>
+                <p>Provide excellent customer support to ensure client satisfaction and retention.</p>
+            </div>
+            <!-- Add more services as needed -->
         </div>
+    </section>
 
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Description of Project 2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p><a href="link-to-project-2" target="_blank">View Project</a></p>
-        </div>
-        
-        <!-- Add more projects as needed -->
-
+    <section>
+        <h2>Contact Me</h2>
+        <p>If you have any inquiries or would like to discuss how I can assist you, feel free to reach out:</p>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: (123) 456-7890</p>
     </section>
 
     <footer>
@@ -69,4 +94,3 @@
 
 </body>
 </html>
-
